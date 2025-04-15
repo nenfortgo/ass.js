@@ -189,4 +189,10 @@ function addMember(name, amount) {
   console.log("GET MEMBER",adashe);
   
   
-//   git@github.com:Golponer9215/js-assignment3.git
+  let obj1 = {name: "test"}
+  let obj2 = {traget: "web2"}
+  let obj3 = {mode: "game"}
+  
+  console.log("Before: ", obj3)
+  Object.assign(obj3, obj2, obj1)
+  console.log("after: ", obj3);
